@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-elasticache`](https://www.npmjs.com/package/@aws-sdk/client-elasticache/v/3.338.0).
+[`@aws-sdk/client-elasticache`](https://www.npmjs.com/package/@aws-sdk/client-elasticache/v/3.341.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.338.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.341.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-rqYjjagS3+mLu0g33BeT3S383721yttxlJnVH3SVwlJzyaoWc/5/y3Ehb3wRR10k
+sha384-lR+SObK4dGxkVyFsfGwMTzRcw4KGFIq0n19HCH9lFdwvMHZCHTqFu9F0Romg4Lp5
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-elasticache": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.338.0/index.min.mjs"
+            "@aws-sdk/client-elasticache": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.341.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.338.0/index.min.mjs": "sha384-rqYjjagS3+mLu0g33BeT3S383721yttxlJnVH3SVwlJzyaoWc/5/y3Ehb3wRR10k"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.341.0/index.min.mjs": "sha384-lR+SObK4dGxkVyFsfGwMTzRcw4KGFIq0n19HCH9lFdwvMHZCHTqFu9F0Romg4Lp5"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-elasticache": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.338.0/index.min.mjs"
+                        "@aws-sdk/client-elasticache": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.341.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.338.0/index.min.mjs": "sha384-rqYjjagS3+mLu0g33BeT3S383721yttxlJnVH3SVwlJzyaoWc/5/y3Ehb3wRR10k"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elasticache@3.341.0/index.min.mjs": "sha384-lR+SObK4dGxkVyFsfGwMTzRcw4KGFIq0n19HCH9lFdwvMHZCHTqFu9F0Romg4Lp5"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.338.0`)
+* Always pin to a specific version (`@3.341.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-elasticache/blob/refs/tags/3.338.0/LICENSE
+https://github.com/cloud-sdk-builds/client-elasticache/blob/refs/tags/3.341.0/LICENSE
 ```
 
 ---
